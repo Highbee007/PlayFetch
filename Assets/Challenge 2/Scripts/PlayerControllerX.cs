@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerControllerX : MonoBehaviour
 {
     public GameObject dogPrefab;
-    public bool spawned = false;
-    public float delay;
+    private bool spawned = false;
+    private float delay;
 
     // Update is called once per frame
     void Update()
